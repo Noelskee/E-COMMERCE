@@ -2,30 +2,7 @@
 {
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.stickyHeader
+.image-frontpage
 {
-    position: sticky;
-    padding: 20px 20px;
-    border-radius: 20px;
-    background-color: rgb(226, 226, 226);
-}
-.title
-{
-    margin-right: 20px; 
-    font-weight: 200;
-    font-size: 20px;
-}
-.label
-{
-    padding: 20px;
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-.navbar-brand
-{
-    font-weight: 600;
-    font-size:70px;
-    
+    width: auto;
 }
