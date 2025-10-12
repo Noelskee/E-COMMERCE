@@ -47,8 +47,15 @@ body {
 }
 
 /* Hide Chatbot Initially */
-.hidden {
-  display: none !important;
+.chat-hidden {
+  transition: 0.25s;
+  transform: scaleY(0);
+  right: 10px;
+  bottom: 10px;
+}
+.chat-shown {
+  transition: 0.25s;
+  transform: scale(1);
 }
 
 /* Chatbot Header */

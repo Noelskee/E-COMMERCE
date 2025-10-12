@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Toggle chatbot visibility
   techbotIcon.addEventListener("click", function () {
-    techbotContainer.classList.remove("hidden");
+    techbotContainer.classList.replace("chat-hidden","chat-shown");
     techbotIcon.style.display = "none"; // Hide icon
   });
 
   closeBtn.addEventListener("click", function () {
-    techbotContainer.classList.add("hidden");
+    techbotContainer.classList.replace("chat-shown","chat-hidden");
     techbotIcon.style.display = "flex"; // Show icon again
   });
 
@@ -41,7 +41,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   async function getBotResponse(userMessage) {
-    const apiKey = "your-api-key"; // E search ang openai platform teo dara e paste ang api key kay ig execute kung mag ask ka ang modisplay kay ang sorry message
+    const apiKey = ""; // E search ang openai platform teo dara e paste ang api key kay ig execute kung mag ask ka ang modisplay kay ang sorry message
+                       // Dili mo dawat ang API if wala siya na encrypt, nang ing.ani siya kay tungod sa security. Paabot nalang ta sa discussion ni sir about APIs -matt
     const apiUrl = "https://api.openai.com/v1/chat/completions";
 
     try {
@@ -52,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
           Authorization: `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
-          model: "gpt-3.5-turbo",
+          model: "gpt-4o-mini",
           messages: [{ role: "user", content: userMessage }],
           max_tokens: 150,
         }),

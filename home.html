@@ -10,13 +10,17 @@
 
     <!--Test Push -->
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="icon"  href="images/favicon.ico" type="image/x-icon"> <!--Apply icon side of the title -->
+    <!-- Our Style -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="styles/TechBot-Style/techbotstyle.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+    <!--Bootstrap 5 Library Styles-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--Apply icon side of the title -->
+    <link rel="icon"  href="images/favicon.ico" type="image/x-icon">
     <title>TechShop</title>
-    <link href="TechBot-Style/techbotstyle.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -105,32 +109,36 @@
     </nav>
 
     <!-- Floating Chat Icon -->
-<div id="techbot-icon">💬</div>
+    <div id="techbot-icon"><img src="image/chatbot.png" height="32px"></div>
 
-<!-- Chatbot Container -->
-<div id="techbot-container" class="hidden">
-  <div id="techbot-header">
-    <span>TechBot</span>
-    <button id="close-btn">&times;</button>
-  </div>
-  <div id="techbot-body">
-    <div id="techbot-messages"></div>
-  </div>
-  <div id="techbot-input-container">
-    <input type="text" id="techbot-input" placeholder="Type a message..." />
-    <button id="send-btn">Send</button>
-  </div>
-</div>
-
-
+    <!-- Chatbot Container -->
+    <div id="techbot-container" class="chat-hidden">
+    <div id="techbot-header">
+        <span>TechBot</span>
+        <button id="close-btn">&times;</button>
+    </div>
+    <div id="techbot-body">
+        <div id="techbot-messages"></div>
+    </div>
+    <div id="techbot-input-container">
+        <input type="text" id="techbot-input" placeholder="Type a message..." />
+        <button id="send-btn">Send</button>
+    </div>
+    </div>
 
 
-    <script src="Ai-function/message.js"></script>
+
+
+    <script src="scripts/message.js"></script>
     <div>
-        <!-- Place holder rani sa image sa frontpage-->
+        <!-- Place holder rani sa image sa frontpage -->
         <img src="image/PlaceHolder.png" class="image-frontpage"/>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </div>
+
+
+    <!-- Bootstap 5 Library Script -->>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>
