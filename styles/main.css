@@ -1,6 +1,37 @@
 :root
 {
   font-family: Arial, Helvetica, sans-serif;
+  --primary-color: #2d3a63;
+  color:#ffffff;
+  background-color: #151f41;
+}
+
+.custom-bgColor
+{
+    background-color: #151f41;
+    color: #ffffff;
+
+}
+.custom-primaryColor
+{
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+.accordion-h
+{
+    height: 20px;
+}
+.debug-green
+{
+    background-color: #00ff00;
+}
+.debug-blue
+{
+    background-color: #0000ff;
+}
+.debug-red
+{
+    background-color: #ff0000;
 }
 .image-frontpage
 {

@@ -16,7 +16,7 @@ container.innerHTML += `
     <p class="card-text">
     ${Description}</p>
     <a href="#" class="btn btn-primary">Show Product</a>
-    <a href="#" class="btn btn-primary">Buy</a>
+    <a href="#" class="btn btn-primary">Add</a>
   </div>
 </div>
 
