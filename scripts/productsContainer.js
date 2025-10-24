@@ -11,13 +11,13 @@ function showProduct(Title,Price)
 
   <div class="card m-2 custom-primaryColor" style="width: 18rem;">
     <img src="../image/placeHolder2.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
+    <a class="card-body ">
       <h5 class="card-title"><strong>${Title}</strong></h5>
       <p class="card-text">
       ${Price}</p>
       <a href="../pages/productOverview.html" class="btn btn-primary">Show Product</a>
       <a href="#" class="btn btn-primary">Add</a>
-    </div>
+    </a>
   </div>
 
 `
