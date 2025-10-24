@@ -6,6 +6,11 @@
   background-color: #151f41;
 }
 
+.home-img
+{
+  object-fit:cover;
+}
+
 .custom-bgColor
 {
     background-color: #151f41;
