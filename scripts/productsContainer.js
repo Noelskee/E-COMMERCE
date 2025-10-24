@@ -11,12 +11,13 @@ const database = await loadDB();
 console.log(database)
 
 database.forEach(db => {
-  showProduct(db.title,db.price[0],db.image)
+  
+  showProduct(db.id,db.title,db.price[0],db.image)
   
 });
 
 
-function showProduct(Title,Price,image)
+function showProduct(id,Title,Price,image)
 {
   container.innerHTML += 
   `
@@ -27,7 +28,7 @@ function showProduct(Title,Price,image)
       <h5 class="card-title"><strong>${Title}</strong></h5>
       <p class="card-text">
       ₱${Price}</p>
-      <a href="../pages/productOverview.html" class="btn btn-primary">Show Product</a>
+      <a href="../pages/productOverview.html?id=${id}" class="btn btn-primary">Show Product</a>
       <a href="#" class="btn btn-primary">Add</a>
     </div>
   </div>
