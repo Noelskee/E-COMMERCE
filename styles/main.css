@@ -11,6 +11,11 @@
   object-fit:cover;
 }
 
+.product-img
+{
+  height: 300px;
+  object-fit: contain;
+}
 .custom-bgColor
 {
     background-color: #151f41;
