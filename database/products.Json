@@ -1,23 +1,182 @@
 [{
+
     "id":0,
     "title":"Among Us",
-    "Price":"159.00",
+    "Price":["292.31","1,100"],
     "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
     "productType":"Games",
     "multiPrice":false,
-    "image":"image/products/0.jpg",
+    "image":"Image/products/among us.jpg",
     "options":
         ["Switch","X-Box one","PS4","PC"]
     }
     ,{
     "id":1,
+    "title":"God of War II",
+    "Price":["700","900"],
+    "multiPrice":true,
+    "description":"an action-adventure game developed by Santa Monica Studio where players control Kratos on a quest for vengeance against the gods of Olympus",
+    "productType":"Games",
+    "image":"image/products/god of war 2.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+    ,{
+    "id":2,
+    "title":"God of War ",
+    "Price":["995.00","3,490.00"],
+    "multiPrice":true,
+    "description":"a popular action-adventure video game franchise developed by Sony's Santa Monica Studio that follows the Spartan warrior Kratos",
+    "productType":"Games",
+    "image":"image/products/god of war.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+    ,{
+    "id":3,
+    "title":"Cyberpunk 2077",
+    "Price":"3,514.21",
+    "multiPrice":true,
+    "description":"is an open-world, action-adventure RPG where you play as a mercenary named V in the futuristic, dystopian metropolis of Night City",
+    "productType":"Games",
+    "image":"image/products/cyberpunk.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+    ,{
+    "id":4,
+     "title": "NBA 2K25",
+    "Price": ["39,990", "49,990"],
+    "multiPrice": true,
+    "description": "Experience next-level basketball realism in NBA 2K25, featuring updated rosters, enhanced MyCareer storylines, and improved gameplay physics. Build your dream team in MyTeam, dominate the court in MyCareer, or take your talents online to compete against players around the world.",
+    "productType": "Games",
+    "image": "image/products/nba 2k25.jpg",
+    "options": ["PS5", "PS4", "X-Box Series X/S", "PC"]
+    }
+
+    ,{
+    "id":5,
+    "title":"Asus TUF Gaming A15 FA507NUR-LP051W | 15.6 144Hz | Ryzen 7 7435HS | 16GB RAM | 512GB SSD | RTX 4050 6GB | WIN 11 Home | PC Central ",
+    "Price":["61,999","72,999"],
+    "multiPrice":true,
+    "description": "A gaming laptop with a 15.6-inch 144Hz display, and AMD Ryzen 7 7435HS processor, 16GB of DDR5 RAM, and a 512GB NVMe SSD.It features an NVIDIA GeForce RTX 4050 6GB graphics card for gaming and includes a 12-month warranty and Windows 11 Home.",
+    "productType":"Laptops",
+    "image":"image/products/ASUS TUF A15.png",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+    ,{
+    "id":6,
     "title":"Steam Deck",
     "Price":["34,850","42,250"],
     "multiPrice":true,
     "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"Games",
+    "productType":"Laptops",
     "image":"image/products/0.jpg",
     "options":
         ["Switch","X-Box one","PS4","PC"]
     }
+
+    ,{
+    "id":7,
+    "title":"Steam Deck",
+    "Price":["34,850","42,250"],
+    "multiPrice":true,
+    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+    "productType":"Laptops",
+    "image":"image/products/0.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+    ,{
+    "id":8,
+    "title":"Steam Deck",
+    "Price":["34,850","42,250"],
+    "multiPrice":true,
+    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+    "productType":"Laptops",
+    "image":"image/products/0.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+    ,{
+    "id":9,
+    "title":"Steam Deck",
+    "Price":["34,850","42,250"],
+    "multiPrice":true,
+    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+    "productType":"Laptops",
+    "image":"image/products/0.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+
+    
+    ,{
+    "id":10,
+    "title":"Steam Deck",
+    "Price":["34,850","42,250"],
+    "multiPrice":true,
+    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+    "productType":"Accessories",
+    "image":"image/products/0.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+    ,{
+    "id":11,
+    "title":"Steam Deck",
+    "Price":["34,850","42,250"],
+    "multiPrice":true,
+    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+    "productType":"Accessories",
+    "image":"image/products/0.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+    ,{
+    "id":12,
+    "title":"Steam Deck",
+    "Price":["34,850","42,250"],
+    "multiPrice":true,
+    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+    "productType":"Accessories",
+    "image":"image/products/0.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+    ,{
+    "id":13,
+    "title":"Steam Deck",
+    "Price":["34,850","42,250"],
+    "multiPrice":true,
+    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+    "productType":"Accessories",
+    "image":"image/products/0.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
+    ,{
+    "id":14,
+    "title":"Steam Deck",
+    "Price":["34,850","42,250"],
+    "multiPrice":true,
+    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+    "productType":"Accessories",
+    "image":"image/products/0.jpg",
+    "options":
+        ["Switch","X-Box one","PS4","PC"]
+    }
+
 ]
