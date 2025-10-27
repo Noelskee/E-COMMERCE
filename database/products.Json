@@ -2,27 +2,23 @@
 
     "id":0,
     "title":"Among Us",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "Price":["292.31","1,100"],
     "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
     "productType":"Games",
     "multiPrice":false,
     "image":"Image/products/among us.jpg",
-=======
+
     "price":["159.00"],
     "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
     "productType":"Games",
     "multiPrice":false,
     "image":"../image/products/0.jpg",
->>>>>>> e676b0c3fb44ed9e863b41fc7024134df99e0844
-=======
+
     "price":["159.00"],
     "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
     "productType":"Games",
     "multiPrice":false,
     "image":"../image/products/0.jpg",
->>>>>>> e676b0c3fb44ed9e863b41fc7024134df99e0844
     "options":
         ["Switch","X-Box one","PS4","PC"]
     }
@@ -91,13 +87,10 @@
     "price":["34,850","42,250"],
     "multiPrice":true,
     "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-<<<<<<< HEAD
     "productType":"Laptops",
     "image":"image/products/0.jpg",
-=======
     "productType":"Laptop",
     "image":"../image/products/1.webp",
->>>>>>> e676b0c3fb44ed9e863b41fc7024134df99e0844
     "options":
         ["Switch","X-Box one","PS4","PC"]
     }
@@ -108,13 +101,10 @@
     "price":["34,850","42,250"],
     "multiPrice":true,
     "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-<<<<<<< HEAD
     "productType":"Laptops",
     "image":"image/products/0.jpg",
-=======
     "productType":"Laptop",
     "image":"../image/products/1.webp",
->>>>>>> e676b0c3fb44ed9e863b41fc7024134df99e0844
     "options":
         ["Switch","X-Box one","PS4","PC"]
     }
