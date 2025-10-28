@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Test Push -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Our Style -->
+    <link href="../styles/TechBot-Style/techbotstyle.css" rel="stylesheet">
+    <link href="../styles/payment.css" rel="stylesheet">
+    <!--Bootstrap 5 Library Styles-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--Apply icon side of the title -->
+    <link rel="icon"  href="../images/favicon.ico" type="image/x-icon">
+    <title>Checkout</title>
+</head>
+<body>
+    <!-- Construct classes -->
+    <nav
+        class="navbar navbar-expand-sm navbar-dark fixed-top custom-primaryColor" style="background-color: var(--primary-color);"
+    >
+        <div class="container">
+            
+            <a class="navbar-brand" href="#">TechShop</a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                
+          
+                
+            </div>
+        </div>
+    </nav>
+  
+  <!-- Showing payment form after checkout-->
+   <div class="container">
+        <h2>Checkout</h2>
+      
+        <div class="section">
+            <h3 style="color: Cyan;">Delivery Address</h3>
+            <div id="address">
+                <br>
+                <br>
+            </div>
+            <button id="ChangeAdd" onclick="changeAddress()" >Change</button>
+        </div>
+
+       <div class="section">
+            <h3>Product Ordered</h3>
+            <div class="product">
+                <div>Product Name</div>
+                <div>₱0</div>
+                
+            </div>
+            <div class="product">
+                <div>Anothe Product</div>
+                <div>₱0</div>
+            </div>
+            <div class="total">Total: ₱0</div>
+        </div>
+
+       <!--Section for payment method-->
+        <div class="section">
+            <h3>Payment Method</h3>
+            <div class="payment-options">
+                <label>
+                    <input type="radio" name="payment" value="Credit Card" checked>
+                    Credit Card
+                </label><br>
+                <label>
+                    <input type="radio" name="payment" value="Debit Card">
+                    Debit Card
+                </label><br>
+                <label>
+                    <input type="radio" name="payment" value="G Cash">
+                    G Cash
+                </label>
+              <label>
+                    <input type="radio" name="payment" value="COD">
+                    Cash on Delivery
+                </label>
+            </d
+        </div>
+
+        <button class="button" onclick="placeOrder()">Place Order</button>
+    </div>
+
+     <script type="module" src="../scripts/productsContainer.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="AddToCart/product.js"></script>
+</body>
+</html>
