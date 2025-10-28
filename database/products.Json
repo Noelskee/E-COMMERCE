@@ -1,61 +1,67 @@
 [
     {
     "id":0,
-    "title":"among Us",
-    "Price":["292.31","1,100"],
+    "title":"Among Us",
+    "price":["292.31"],
     "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
     "productType":"Games",
     "multiPrice":false,
     "image":"image/products/among us.jpg",
     "options":
-        ["Switch","X-Box one","PS4","PC"]
+        ["Switch","X-Box one","PS4","PC"],
+    "stocks":100
     }
     ,{
     "id":1,
     "title":"God of War II",
-    "Price":["159.00"],
-    "multiPrice":true,
+    "price":["3,000.00"],
+    "multiPrice":false,
     "description":"a third-person action-adventure video game where the player controls the vengeful anti-hero Kratos",
     "productType":"Games",
     "image":"image/products/0.jpg",
     "options":
         ["Switch","X-Box one","PS4","PC"]
+    ,
+    "stocks":100
     }
 
     ,{
     "id":2,
     "title":"God of War ",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
+    "price":["3,000"],
+    "multiPrice":false,
     "description":"a highly acclaimed action-adventure video game franchise known for its brutal combat and a story centered on the Spartan warrior Kratos",
     "productType":"Games",
     "image":"image/products/0.jpg",
     "options":
-        ["Switch","X-Box one","PS4","PC"]
+        ["Switch","X-Box one","PS4","PC"],
+    "stocks":100
     }
 
     ,{
     "id":3,
     "title":"Cyberpunk 2077",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
+    "price":["3,000"],
+    "multiPrice":false,
     "description":"an open-world, action-adventure RPG where you play as V, a mercenary in the dystopian, neon-drenched metropolis of Night City",
     "productType":"Games",
     "image":"image/products/0.jpg",
     "options":
-        ["Switch","X-Box one","PS4","PC"]
+        ["Switch","X-Box one","PS4","PC"],
+    "stocks":100
     }
 
     ,{
     "id":4,
     "title":"Left 4 Dead 2 ",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
+    "price":["3,000"],
+    "multiPrice":false,
     "description":"a cooperative first-person shooter horror game where four survivors fight zombies and special infected through the Deep South",
     "productType":"Games",
     "image":"image/products/0.jpg",
     "options":
-        ["Switch","X-Box one","PS4","PC"]
+        ["Switch","X-Box one","PS4","PC"],
+    "stocks":100
     }
 
     ,{
@@ -67,178 +73,9 @@
     "productType":"Laptops",
     "image":"image/products/ASUS TUF A15.png",
     "options":
-        ["Switch","X-Box one","PS4","PC"]
+        ["mahal","barato"],
+    "stocks":100
     }
-
-    ,{
-    "id":6,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"Laptops",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":7,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"Laptops",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":8,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"Laptops",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":9,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"Laptops",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-	,{
-    "id":10,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"Accessories",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":11,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"Accessories",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":12,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"Accessories",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":13,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"Accessories",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":14,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"Accessories",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-	
-
-	,{
-    "id":15,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"PC Component",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":16,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"PC Component",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":17,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"PC Component",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":18,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"PC Component",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
-    ,{
-    "id":19,
-    "title":"Steam Deck",
-    "Price":["34,850","42,250"],
-    "multiPrice":true,
-    "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
-    "productType":"PC Component",
-    "image":"image/products/0.jpg",
-    "options":
-        ["Switch","X-Box one","PS4","PC"]
-    }
-
 ]
 
 
