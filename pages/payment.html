@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Our Style -->
     <link href="../styles/TechBot-Style/techbotstyle.css" rel="stylesheet">
+    <link href="../styles/main.css" rel="stylesheet">
     <link href="../styles/payment.css" rel="stylesheet">
     <!--Bootstrap 5 Library Styles-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!--Apply icon side of the title -->
-    <link rel="icon"  href="../images/favicon.ico" type="image/x-icon">
+    <link rel="icon"  href="../images/ favicon.ico" type="image/x-icon">
     <title>Checkout</title>
 </head>
 <body>
     <!-- Construct classes -->
-    <nav
-        class="navbar navbar-expand-sm navbar-dark fixed-top custom-primaryColor" style="background-color: var(--primary-color);"
-    >
+     <nav class="navbar navbar-expand-sm navbar-dark fixed-top custom-primaryColor">
         <div class="container">
             
             <a class="navbar-brand" href="#">TechShop</a>
@@ -29,22 +28,99 @@
                 aria-controls="collapsibleNavId"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
-            >   
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html" aria-current="page"
+                            >Home
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+                    <div class="btn-group">
+                    <a type="button" href="products.html" class="nav-link active">Products
+                    </a>
+                    <button type="button" class="btn nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="products.html?filter=1">Games</a></li>
+                        <li><a class="dropdown-item" href="products.html?filter=2">Laptops</a></li>
+                        <li><a class="dropdown-item" href="products.html?filter=3">Accesories</a></li>
+                        <li><a class="dropdown-item" href="products.html?filter=4">PC Components</a></li>
+                    </ul>
+                    </div>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <button
+                        class="btn btn-outline-success my-2 my-sm-0" style="margin: 20px;"
+                        type="submit"
+                    >
+                        Shopping-Cart
+                    </button>
+                </form>
+                <form class="d-flex my-2 my-lg-0">
+
+                <img src="../image/avatar.png" style="height: 20px; padding: 1px; margin: 4px;">
+                
+                </img>
+                <a class="nav-link active" href="#" aria-current="page"
+                        >Log-in
+                <span class="visually-hidden">(current)</span>
+                    </a>
+                </form>
             </div>
         </div>
     </nav>
-  
-  <!-- Showing payment form after checkout-->
-   <div class="container">
+    
+    <div style="height: 100px;"></div>
+    <!-- Showing payment form after checkout-->
+    <div id="payContainer" class="custom-primaryColor">
         <h2>Checkout</h2>
       
         <div class="section">
-            <h3 style="color: Cyan;">Delivery Address</h3>
+            <h3 style="color: rgb(62, 250, 250);">Delivery Address</h3>
             <div id="address">
-                <br>
-                <br>
+                
+                <div class="container">
+                <div class="row align-items-start">
+                    <div class="row">
+                    Full Name
+                    <input></input>
+                    </div>
+                    <div class="row">
+                    Address
+                    <input></input>
+                    </div>
+                    <div class="row">
+                    Landmark
+                    <input></input>
+                    <p></p>
+                    </div>
+                    <div class="row">
+                    
+                    <div class="container">
+                        <div class="row align-items-start">
+                            <div class="col">
+                                Email
+                                <p></p>
+                                <input></input>
+                            </div>
+                            <div class="col">
+                                Contact
+                                <p></p>
+                                <input></input>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+                </div>
+
             </div>
-            <button id="ChangeAdd" onclick="changeAddress()" >Change</button>
         </div>
 
        <div class="section">
@@ -76,18 +152,19 @@
                 <label>
                     <input type="radio" name="payment" value="G Cash">
                     G Cash
-                </label>
+                </label><br>
               <label>
                     <input type="radio" name="payment" value="COD">
                     Cash on Delivery
                 </label>
             </div>
+            <div id="creditDebitInfo">
+                a
+            </div>
         </div>
 
         <button class="button" onclick="placeOrder()">Place Order</button>
     </div>
-
-     <script type="module" src="../scripts/productsContainer.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="AddToCart/product.js"></script>
