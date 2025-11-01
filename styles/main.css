@@ -6,6 +6,40 @@
   background-color: #151f41;
 }
 
+body
+{
+  background-color: #151f41;
+}
+
+.productTitle
+{
+  font-size: 50px;
+  font-weight: bold;
+}
+.productPrice
+{
+  color: greenyellow ;
+  font-size: 36px;
+}
+
+.productDesc
+{
+  font-size: 24px;
+}
+
+.productOptions
+{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.productOptionbtn
+{
+  background-color: #85b6ff;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 4px;
+}
 
 .home-img
 {
@@ -47,8 +81,4 @@
 .image-frontpage
 {
     width: auto;
-}
-
-body{
-  background-color: blue;
 }
