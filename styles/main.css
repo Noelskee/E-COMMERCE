@@ -47,6 +47,13 @@ body
   border-width: 0px;
   border-radius: 4px;
 }
+.optionSelected
+{
+  background-color: #fffb0f;
+  border-radius: 20px;
+  height: 5px;
+  position: relative;
+}
 
 .home-img
 {
