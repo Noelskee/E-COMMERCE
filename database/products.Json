@@ -7,8 +7,10 @@
     "productType":"Games",
     "multiPrice":false,
     "image":"../image/products/0.jpg",
+    "optionName":"Platform",
     "options":
         ["Switch","X-Box one","PS4","PC"],
+    "optionsPrice":[0,0,0,0],
     "stocks":100
     }
     

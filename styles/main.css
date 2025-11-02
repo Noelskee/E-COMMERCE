@@ -26,6 +26,13 @@ body
 {
   font-size: 24px;
 }
+.productDescHolder
+{
+  margin: 20px 0px;
+  padding: 20px;
+  background-color: #4c6fa7;
+  border-radius: 20px;
+}
 
 .productOptions
 {
