@@ -17,14 +17,14 @@
     ,{
     "id":1,
     "title":"God of War II",
-    "price":["3,553.21"],
+    "price":["3,553.21","11111.11"],
     "multiPrice":false,
     "description":"a third-person action-adventure video game where the player controls the vengeful anti-hero Kratos",
     "productType":"Games",
     "image":"../image/products/1.jpg",
     "options":
-        ["Switch","X-Box one","PS4","PC"]
-    ,
+        ["Switch","X-Box one","PS4","PC"],
+    "optionsPrice":[0,0,1,1],
     "stocks":100
     }
 
