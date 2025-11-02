@@ -1,7 +1,10 @@
+//retriving the id on the URL
+
 let param = new URLSearchParams(document.location.search)
 let id = param.get("id")
 
 
+//loading products database
 async function loadDB()
 {
   const response = await fetch("../database/products.json");
@@ -10,15 +13,19 @@ async function loadDB()
 }
 const database = await loadDB();
 console.log(database)
+
+//Option Seletor Entity
 var a = document.querySelector("optionsSelected");
 
+
+//For Update UI Elements of the HTML
 const title = document.getElementById('title');
 const price = document.getElementById('price');
 const description = document.getElementById('description');
 const imag = document.getElementById('image');
 const option = document.getElementById('option');
 
-
+//price Indicator tells which price to show relatively to an option
 let priceIndex = 0;
 
 let data = database[id]
@@ -27,6 +34,8 @@ let Price = data.price[priceIndex]
 
 
 console.log(data)
+
+//Updating The UI elements
 title.innerHTML = data.title;
 price.innerHTML = '₱' + Price;
 description.innerHTML = data.description;
@@ -34,6 +43,7 @@ option.innerHTML = data.optionName + ':';
 
 imag.src = data.image
 
+//initializing options
 optionInit(data);
 
 
@@ -45,6 +55,7 @@ function changePrice(index)
   price.innerHTML = '₱' + Price;
 }
 
+
 function optionInit(O)
 {
   const optionHoler = document.getElementById("optionHolder");
@@ -55,6 +66,7 @@ function optionInit(O)
     
     if(indexCount == 0)
     {
+      //creating a selector Entity
       optionHolder.innerHTML += `
       
       <div id="optionSelector"></div>
@@ -72,6 +84,8 @@ function optionInit(O)
 }
 const button = document.querySelectorAll('button');
 
+
+//Update Option Selector
 button.forEach(b => {
   b.addEventListener('click',(e) => {
   a.className = "optionSelected";
