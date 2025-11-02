@@ -6,7 +6,7 @@
     "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
     "productType":"Games",
     "multiPrice":false,
-    "image":"image/products/0.jpg",
+    "image":"../image/products/0.jpg",
     "options":
         ["Switch","X-Box one","PS4","PC"],
     "stocks":100
@@ -19,7 +19,7 @@
     "multiPrice":false,
     "description":"a third-person action-adventure video game where the player controls the vengeful anti-hero Kratos",
     "productType":"Games",
-    "image":"image/products/1.jpg",
+    "image":"../image/products/1.jpg",
     "options":
         ["Switch","X-Box one","PS4","PC"]
     ,
@@ -33,7 +33,7 @@
     "multiPrice":false,
     "description":"a highly acclaimed action-adventure video game franchise known for its brutal combat and a story centered on the Spartan warrior Kratos",
     "productType":"Games",
-    "image":"image/products/2.jpg",
+    "image":"../image/products/2.jpg",
     "options":
         ["Switch","X-Box one","PS4","PC"],
     "stocks":100
@@ -46,7 +46,7 @@
     "multiPrice":false,
     "description":"an open-world, action-adventure RPG where you play as V, a mercenary in the dystopian, neon-drenched metropolis of Night City",
     "productType":"Games",
-    "image":"image/products/3.jpg",
+    "image":"../image/products/3.jpg",
     "options":
         ["Switch","X-Box one","PS4","PC"],
     "stocks":100
@@ -59,7 +59,7 @@
     "multiPrice":false,
     "description":"a cooperative first-person shooter horror game where four survivors fight zombies and special infected through the Deep South",
     "productType":"Games",
-    "image":"image/products/4.jpg",
+    "image":"../image/products/4.jpg",
     "options":
         ["Switch","X-Box one","PS4","PC"],
     "stocks":100
@@ -68,11 +68,11 @@
     ,{
     "id":5,
     "title":"Asus TUF Gaming A15 FA507NUR-LP051W | 15.6 144Hz | Ryzen 7 7435HS | 16GB RAM | 512GB SSD | RTX 4050 6GB | WIN 11 Home | PC Central ",
-    "Price":["61,999","72,999"],
+    "price":["61,999","72,999"],
     "multiPrice":true,
     "description": "A gaming laptp with a 15.6-inch 144Hz display, and AMD Ryzen 7 7435HS processor, 16GB of DDR5 RAM, and a 512GB NVMe SSD.It features an NVIDIA GeForce RTX 4050 6GB graphics card for gaming and includes a 12-month warranty and Windows 11 Home.",
     "productType":"Laptops",
-    "image":"image/products/ASUS TUF A15.png",
+    "image":"../image/products/5.png",
     "options":
         ["mahal","barato"],
     "stocks":100
@@ -81,11 +81,11 @@
     ,{
     "id": 6,
     "title": "MSI Katana 15 B13VEK-1005PH | 15.6 144Hz | Core i7-13620H | 16GB RAM | 1TB SSD | RTX 4060 8GB | WIN 11 Home | PC Central",
-    "Price": ["68,999", "79,999"],
+    "price": ["68,999", "79,999"],
     "multiPrice": true,
     "description": "The MSI Katana 15 is a powerful gaming laptop featuring a 15.6-inch 144Hz IPS display, Intel Core i7-13620H processor, 16GB DDR5 RAM, and a 1TB NVMe SSD. It’s equipped with an NVIDIA GeForce RTX 4060 8GB GPU for high-performance gaming. Comes with Windows 11 Home and a 2-year MSI warranty.",
     "productType": "Laptops",
-    "image": "image/products/msi katana 15.png",
+    "image": "../image/products/6.png",
     "options": ["mahal", "barato"],
     "stocks": 80
     }

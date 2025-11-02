@@ -71,20 +71,20 @@
         <div class="row">
             <div class="col">
                 <div width="300px">
-                    <img id="imgHolder" class="rounded-4" src="../image/products/0.jpg" height="500px">
+                    <img id="image" class="rounded-4" src="../image/products/0.jpg" height="500px">
                 </div>
             </div>
             <div class="col">
                 <div class="row">                
-                    <Label class="productTitle">Title</Label>
+                    <Label id="title" class="productTitle">Title</Label>
                 </div>
                 <div class="row">
-                    <label class="productPrice">
+                    <label id="price" class="productPrice">
                         0.00
                     </label>
                 </div>
                 <div class="row">
-                    <label height="100px" class="productDescription">Description</label>
+                    <label height="100px" id="description"class="productDescription">Description</label>
                 </div>
                 <div class="row">
                     <label class="productOptions">Options:</label>
@@ -104,7 +104,8 @@
             <div class="col"></div>
         </div>
     </div>
-    
+
+    <script type="module" src="../scripts/product.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     
 </body>
