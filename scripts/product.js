@@ -77,7 +77,7 @@ function optionInit(O)
     }
 
     optionHoler.innerHTML += `
-    <button class="btn btn-primary p-3 m-2 " type="button" name="${indexCount}" id="${indexCount}">${A}</button>
+    <button class="btn btn-primary p-3 m-2 productOptions" type="button" name="${indexCount}" id="${indexCount}">${A}</button>
 `
     indexCount++;
   });
@@ -88,6 +88,9 @@ const button = document.querySelectorAll('button');
 //Update Option Selector
 button.forEach(b => {
   b.addEventListener('click',(e) => {
+
+  if (!b.classList.contains("productOptions"))
+    return;
   a.className = "optionSelected";
   let w = b.clientWidth
   console.log(w);
