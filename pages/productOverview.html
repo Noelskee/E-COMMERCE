@@ -58,7 +58,7 @@
                         class="btn btn-outline-success my-2 my-sm-0" style="margin: 20px;"
                         type="submit"
                     >
-                        Shopping-Cart
+                        <img src="/image/shoppingCart.svg" height="20px" class="shoppingCart"></img>
                     </button>
             </div>
         </div>
@@ -92,10 +92,16 @@
 
                     </div>
                 </div>
-                <br>
-                <br>
+                <div class="row">
+                    <label class="productOptions">Quantity:</label>
+                    <div class="col">
+                    <button type="button" class="btn btn-primary pl-2 m-2 quantityBtn">-</button>
+                    <label id="quantity"class="productQuantity">1</label>
+                    <button type="button" class="btn btn-primary pl-2 m-2 quantityBtn">+</button>
+                    </div>
+                </div>
                 <div class="row mt-5">
-                    <button type="button" class="btn btn-primary p-3 mt-5">Add-to-Cart</button>
+                    <button type="button" id="addCart" class="btn btn-primary p-3 mt-5"><b>Add-to-Cart</b></button>
                 </div>
             </div>
             <div class="col-1"></div>

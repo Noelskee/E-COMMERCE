@@ -10,7 +10,11 @@ body
 {
   background-color: #151f41;
 }
-
+.shoppingCart
+{
+  filter: invert(100%) sepia(93%) saturate(0%) hue-rotate(87deg) brightness(119%) contrast(119%);
+  fill: white;
+}
 .productTitle
 {
   font-size: 50px;
@@ -21,7 +25,24 @@ body
   color: greenyellow ;
   font-size: 36px;
 }
-
+.Pselected
+{
+  background-color: #87ff87;
+  color: rgb(34, 34, 34);
+}
+.Pselected:hover
+{
+  background-color: #87ff87;
+  color: rgb(34, 34, 34);
+}
+.productQuantity
+{
+  background-color: white;
+  border-radius: 5px;
+  margin: 0;
+  color: black;
+  padding: 10px 20px;
+}
 .productDesc
 {
   font-size: 24px;
